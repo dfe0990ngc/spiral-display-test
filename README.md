@@ -9,7 +9,7 @@
 
 
 # spiral-display-test
-To run the test execute the following:
+To run the test after cloning, execute the following:
 
 1. composer install
 2. npm install
