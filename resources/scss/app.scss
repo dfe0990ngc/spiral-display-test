@@ -1,0 +1,21 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.fx-Revolve {
+    &:focus {
+      // outline: 0;
+      box-shadow: 0 0 3pt 2pt #75ACF8;
+      position: relative;
+      outline: 0;
+      &:before {
+        border-radius: inherit;
+        content: "";
+        width: calc(100% - 2.2em);
+        height: calc(100% - 2.2em);
+        margin: 1em;
+        box-shadow: inset 0 0 3pt 2pt #75ACF8;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
