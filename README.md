@@ -7,6 +7,16 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+# spiral-display-test
+To run the test execute the following:
+
+1. composer install
+2. npm install
+3. php artisan migrate:fresh --seed
+4. npm run build
+5. php artisan serve
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -64,4 +74,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# spiral-display-test
