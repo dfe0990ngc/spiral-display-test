@@ -13,6 +13,6 @@ class Breakdown extends Model
     protected $fillable = ['values','random_id'];
 
     public function random(){
-        $this->belongsTo(Random::class);
+        return $this->belongsTo(Random::class);
     }
 }
